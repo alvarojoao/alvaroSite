@@ -9,9 +9,11 @@ import javax.inject.Inject
 import play.api.i18n._
 class Application  @Inject() ( val messagesApi: MessagesApi) extends Controller with I18nSupport {
 
-  def index = Action { request =>
 
-    Ok(views.html.index())
-  }
+
+
+	def index = Action {  implicit request =>
+		Ok(views.html.index())
+	}
 
 }

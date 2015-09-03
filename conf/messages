@@ -2,9 +2,9 @@ top.top = Top
 top.work = Work
 top.portfolio = Portfolio
 top.contact = Contact
-intro = Hi I'm Alvaro Silvino
-description = I'm a fullstack developer, pasionate with my proffession and willing to contribute to a better world throught software.
-description.education = Undergraduated in SC from UFPE <a href="#">here</a>
+intro = Hi I''m Alvaro Silvino
+description = I''m a <a href="http://www.laurencegellert.com/2012/08/what-is-a-full-stack-developer/" target="_blank">fullstack developer</a>, passionate with my profession and wishing to contribute to a better world through technology.
+description.education = Undergraduate in CS by <a href="http://www2.cin.ufpe.br/site/index.php" target="_blank">Federal University of Pernambuco </a> and <a href="http://www.mun.ca/computerscience/" target="_blank">Memorial University of Newfoundland</a>. Currently, I''m pursuing a master''s degree in <a href="https://en.wikipedia.org/wiki/Computational_intelligence" targe="_blank"> computational intelligence </a> in Federal University of Pernambuco.
 description.special.first =  
 description.special.second =  
 learnmore = Learn about what I do
@@ -12,7 +12,7 @@ link.facebook =  https://www.facebook.com/alvarojoao.silvino
 link.github =  https://github.com/alvarojoao
 link.email =  mail:alvaro@@silvino.me
 link.linkedin =  https://br.linkedin.com/pub/alvaro-silvino/a1/698/538
-work.title = Here's all the stuff I do.
+work.title = Here''s all the stuff I do.
 work.description = Some tecnology I know and worked on.
 work.special.angular = Angular
 work.special.angular.description = Data driven applications
@@ -24,7 +24,7 @@ work.special.webservice = Webservice
 work.special.webservice.description = Restfull tecnologies with asyncronous jobs
 work.special.webservice.image = fa-linux
 work.special.node = Node.js Applications
-work.special.node.description = Restfull tecnologies with asyncronous jobs
+work.special.node.description = javascript everywhere
 work.special.node.image = fa-codepen
 work.special.sass = Sass and Less
 work.special.sass.description = Doing elegant, responsive and fast css for all applications
