@@ -1,14 +1,15 @@
-@()(implicit l: Lang)
-@import play.i18n._
+@()(implicit message: MessagesApi ,l: Lang)
 
 @main {
-
-    			<nav id="nav">
+			
+			<nav id="nav">
 				<ul class="container">
-					<li><a href="#top">@Messages.get("top.top")</a></li>
-					<li><a href="#work">@Messages.get("top.work")</a></li>
-					<li><a href="#portfolio">@Messages.get("top.portfolio")</a></li>
-					<li><a href="#contact">@Messages.get("top.contact")</a></li>
+					<li><a href="#top">@message("top.top")</a></li>
+					<li><a href="#work">@message("top.work")</a></li>
+					<li><a href="#portfolio">@message("top.portfolio")</a></li>
+					<li><a href="#contact">@message("top.contact")</a></li>
+					<li><a href="javascript:void(0)" onclick="window.location.href = '?lang=pt';"><img src="@routes.Assets.versioned("images/BR.png")" /></a></li>
+					<li><a href="./?lang=en"><img src="@routes.Assets.versioned("images/US.gif")" /></a></li>
 				</ul>
 			</nav>
 
@@ -20,11 +21,11 @@
 						</div>
 						<div class="8u 12u(mobile)">
 							<header>
-								<h1>@Messages.get("intro")</h1>
+								<h1>@message("intro")</h1>
 							</header>
-							<p>@Html(Messages.get("description"))</p>
-							<p>@Html(Messages.get("description.education"))</p>
-							<a href="#work" class="button big scrolly">@Messages.get("learnmore")</a>
+							<p>@Html(message("description"))</p>
+							<p>@Html(message("description.education"))</p>
+							<a href="#work" class="button big scrolly">@message("learnmore")</a>
 							
 						</div>
 					</div>
@@ -34,60 +35,60 @@
 			<div class="wrapper style2">
 				<article id="work">
 					<header>
-						<h2>@Messages.get("work.title")</h2>
-						<p>@Messages.get("work.description")</p>
+						<h2>@message("work.title")</h2>
+						<p>@message("work.description")</p>
 					</header>
 					<div class="container">
 						<div class="row">
 							<div class="4u 12u(mobile)">
 								<section class="box style1">
-									<span class="fa fa-5x @Messages.get("work.special.angular.image")"></span>
-									<h3>@Messages.get("work.special.angular")</h3>
-									<p>@Messages.get("work.special.angular.description")</p>
+									<span class="fa fa-5x @message("work.special.angular.image")"></span>
+									<h3>@message("work.special.angular")</h3>
+									<p>@message("work.special.angular.description")</p>
 								</section>
 							</div>
 							<div class="4u 12u(mobile)">
 								<section class="box style1">
-									<span class="fa fa-5x @Messages.get("work.special.mobile.image")"></span>
-									<h3>@Messages.get("work.special.mobile")</h3>
-									<p>@Messages.get("work.special.mobile.description")</p>
+									<span class="fa fa-5x @message("work.special.mobile.image")"></span>
+									<h3>@message("work.special.mobile")</h3>
+									<p>@message("work.special.mobile.description")</p>
 								</section>
 							</div>
 							<div class="4u 12u(mobile)">
 								<section class="box style1">
-									<span class="fa fa-5x @Messages.get("work.special.webservice.image")"></span>
-									<h3>@Messages.get("work.special.webservice")</h3>
-									<p>@Messages.get("work.special.webservice.description")</p>
+									<span class="fa fa-5x @message("work.special.webservice.image")"></span>
+									<h3>@message("work.special.webservice")</h3>
+									<p>@message("work.special.webservice.description")</p>
 								</section>
 							</div>
 						</div>
 						<div class="row">
 							<div class="4u 12u(mobile)">
 								<section class="box style1">
-									<span class="fa fa-5x @Messages.get("work.special.playframework.image")"></span>
-									<h3>@Messages.get("work.special.playframework")</h3>
-									<p>@Messages.get("work.special.playframework.description")</p>
+									<span class="fa fa-5x @message("work.special.playframework.image")"></span>
+									<h3>@message("work.special.playframework")</h3>
+									<p>@message("work.special.playframework.description")</p>
 								</section>
 							</div>
 							<div class="4u 12u(mobile)">
 								<section class="box style1">
-									<span class="fa fa-5x @Messages.get("work.special.node.image")"></span>
-									<h3>@Messages.get("work.special.node")</h3>
-									<p>@Messages.get("work.special.node.description")</p>
+									<span class="fa fa-5x @message("work.special.node.image")"></span>
+									<h3>@message("work.special.node")</h3>
+									<p>@message("work.special.node.description")</p>
 								</section>
 							</div>
 							<div class="4u 12u(mobile)">
 								<section class="box style1">
-									<span class="fa fa-5x @Messages.get("work.special.sass.image")"></span>
-									<h3>@Messages.get("work.special.sass")</h3>
-									<p>@Messages.get("work.special.sass.description")</p>
+									<span class="fa fa-5x @message("work.special.sass.image")"></span>
+									<h3>@message("work.special.sass")</h3>
+									<p>@message("work.special.sass.description")</p>
 								</section>
 							</div>
 						</div>
 					</div>
 					<footer>
-						<p>@Messages.get("work.moreabout")</p>
-						<a href="#portfolio" class="button big scrolly">@Messages.get("work.moreabout.recentwork")</a>
+						<p>@message("work.moreabout")</p>
+						<a href="#portfolio" class="button big scrolly">@message("work.moreabout.recentwork")</a>
 					</footer>
 				</article>
 			</div>
@@ -95,60 +96,61 @@
 			<div class="wrapper style3">
 				<article id="portfolio">
 					<header>
-						<h2>@Messages.get("recent.title")</h2>
-						<p>@Messages.get("recent.description")</p>
+						<h2>@message("recent.title")</h2>
+						<p>@message("recent.description") =><a href="@message("link.github")" target="_blank" class="icon fa-github"><span class="label">Github</span></a></p>
+
 					</header>
 					<div class="container">
 						<div class="row">
 							<div class="4u 12u(mobile)">
 								<article class="box style2">
-									<a href="@Messages.get("recent.musicamise.url")" class="image featured"><img src="@routes.Assets.versioned(Messages.get("recent.musicamise.image"))" alt="" /></a>
-									<h3><a href="@Messages.get("recent.musicamise.url")">@Messages.get("recent.musicamise")</a></h3>
-									<p>@Messages.get("recent.musicamise.about")</p>
+									<a href="@message("recent.musicamise.url")" class="image featured"><img src="@routes.Assets.versioned(message("recent.musicamise.image"))" alt="" /></a>
+									<h3><a href="@message("recent.musicamise.url")">@message("recent.musicamise")</a></h3>
+									<p>@message("recent.musicamise.about")</p>
 								</article>
 							</div>
 							<div class="4u 12u(mobile)">
 								<article class="box style2">
-									<a href="@Messages.get("recent.firstdown.url")" class="image featured"><img src="@routes.Assets.versioned(Messages.get("recent.firstdown.image"))" alt="" /></a>
-									<h3><a href="@Messages.get("recent.firstdown.url")">@Messages.get("recent.firstdown")</a></h3>
-									<p>@Messages.get("recent.firstdown.about")</p>
+									<a href="@message("recent.firstdown.url")" class="image featured"><img src="@routes.Assets.versioned(message("recent.firstdown.image"))" alt="" /></a>
+									<h3><a href="@message("recent.firstdown.url")">@message("recent.firstdown")</a></h3>
+									<p>@message("recent.firstdown.about")</p>
 								</article>
 							</div>
 							<div class="4u 12u(mobile)">
 								<article class="box style2">
-									<a href="@Messages.get("recent.accenture.url")" class="image featured"><img src="@routes.Assets.versioned(Messages.get("recent.accenture.image"))" alt="" /></a>
-									<h3><a href="@Messages.get("recent.accenture.url")">@Messages.get("recent.accenture")</a></h3>
-									<p>@Messages.get("recent.accenture.about")</p>
+									<a href="@message("recent.accenture.url")" class="image featured"><img src="@routes.Assets.versioned(message("recent.accenture.image"))" alt="" /></a>
+									<h3><a href="@message("recent.accenture.url")">@message("recent.accenture")</a></h3>
+									<p>@message("recent.accenture.about")</p>
 								</article>
 							</div>
 						</div>
 						<div class="row">
 							<div class="4u 12u(mobile)">
 								<article class="box style2">
-									<a href="@Messages.get("recent.sodet.url")" class="image featured"><img src="@routes.Assets.versioned(Messages.get("recent.sodet.image"))" alt="" /></a>
-									<h3><a href="@Messages.get("recent.sodet.url")">@Messages.get("recent.sodet")</a></h3>
-									<p>@Messages.get("recent.sodet.about")</p>
+									<a href="@message("recent.sodet.url")" class="image featured"><img src="@routes.Assets.versioned(message("recent.sodet.image"))" alt="" /></a>
+									<h3><a href="@message("recent.sodet.url")">@message("recent.sodet")</a></h3>
+									<p>@message("recent.sodet.about")</p>
 								</article>
 							</div>
 							<div class="4u 12u(mobile)">
 								<article class="box style2">
-									<a href="@Messages.get("recent.pessoalproject1.url")" class="image featured"><img src="@routes.Assets.versioned(Messages.get("recent.pessoalproject1.image"))" alt="" /></a>
-									<h3><a href="@Messages.get("recent.pessoalproject1.url")">@Messages.get("recent.pessoalproject1")</a></h3>
-									<p>@Messages.get("recent.pessoalproject1.about")</p>
+									<a href="@message("recent.pessoalproject1.url")" class="image featured"><img src="@routes.Assets.versioned(message("recent.pessoalproject1.image"))" alt="" /></a>
+									<h3><a href="@message("recent.pessoalproject1.url")">@message("recent.pessoalproject1")</a></h3>
+									<p>@message("recent.pessoalproject1.about")</p>
 								</article>
 							</div>
 							<div class="4u 12u(mobile)">
 								<article class="box style2">
-									<a href="@Messages.get("recent.pessoalproject2.url")" class="image featured"><img src="@routes.Assets.versioned(Messages.get("recent.pessoalproject2.image"))" alt="" /></a>
-									<h3><a href="@Messages.get("recent.pessoalproject2.url")">@Messages.get("recent.pessoalproject2")</a></h3>
-									<p>@Messages.get("recent.pessoalproject2.about")</p>
+									<a href="@message("recent.pessoalproject2.url")" class="image featured"><img src="@routes.Assets.versioned(message("recent.pessoalproject2.image"))" alt="" /></a>
+									<h3><a href="@message("recent.pessoalproject2.url")">@message("recent.pessoalproject2")</a></h3>
+									<p>@message("recent.pessoalproject2.about")</p>
 								</article>
 							</div>
 						</div>
 					</div>
 					<footer>
-						<p>@Messages.get("recent.needmoreinfo")</p>
-						<a href="#contact" class="button big scrolly">@Messages.get("recent.getintouch")</a>
+						<p>@message("recent.needmoreinfo")</p>
+						<a href="#contact" class="button big scrolly">@message("recent.getintouch")</a>
 					</footer>
 				</article>
 			</div>
@@ -156,18 +158,18 @@
 			<div class="wrapper style4">
 				<article id="contact" class="container 75%">
 					<header>
-						<h2>@Messages.get("getintouch.title")</h2>
-						<p>@Messages.get("getintouch.description")</p>
+						<h2>@message("getintouch.title")</h2>
+						<p>@message("getintouch.description")</p>
 					</header>
 					<header id="header">
 						<nav>
 							<ul>
 								<!-- <li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li> -->
-								<li><a href="@Messages.get("link.linkedin")" target="_blank" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
-								<li><a href="@Messages.get("link.facebook")" target="_blank" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+								<li><a href="@message("link.linkedin")" target="_blank" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+								<li><a href="@message("link.facebook")" target="_blank" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
 								<!-- <li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li> -->
-								<li><a href="@Messages.get("link.github")" target="_blank" class="icon fa-github"><span class="label">Github</span></a></li>
-								<li><a href="@Messages.get("link.email")" target="_blank" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+								<li><a href="@message("link.github")" target="_blank" class="icon fa-github"><span class="label">Github</span></a></li>
+								<li><a href="@message("link.email")" target="_blank" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
 							</ul>
 						</nav>
 					</header>
@@ -236,7 +238,7 @@
 					</div> -->
 					<footer>
 						<ul id="copyright">
-							<li>&copy; @Messages.get("footer.name") @Messages.get("footer.allrightsreserved") </li><li> @Messages.get("footer.design")  <a href="http://html5up.net">HTML5 UP</a></li>
+							<li>&copy; @message("footer.name") @message("footer.allrightsreserved") </li><li> @message("footer.design")  <a href="http://html5up.net">HTML5 UP</a></li>
 						</ul>
 					</footer>
 				</article>
