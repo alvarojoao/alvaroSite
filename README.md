@@ -10,7 +10,6 @@ Basically just show my skills and my recents projects.
 
 Resume - 
 
-
 #&#193;lvaro Jo&#227;o
 - Recife - State of Pernambuco, Brazil
 - alvaro@silvino.me
@@ -29,14 +28,12 @@ Undergraduate in CS by [Federal University of Pernambuco][2] and [Memorial Unive
 
 ---
 ## Technical Skills
-**Like:** nosql, node.js, angularjs, javascript, java, playframework, meanjs, machine-learning, matlab, compass-sass
-
-**Dislike:** .net
+**Likes:** nosql, node.js, angularjs, javascript, java, playframework, meanjs, machine-learning, matlab, compass-sass, asp.net, c#
 
 ---
 ##Experience
 
-**Senior Analyst**, Accenture Brasil, *March 2015 – Current*
+**Senior Analyst**, Accenture Brasil, *March 2015 â€“ Current*
 
 sass, compass-sass, javascript, demandware, jquery, requirejs, node.js
 
@@ -48,7 +45,7 @@ In this job I was able to see managers working with a strategic thoughts and sev
 
 ---
 
-**Software Engineer**, SODET - Shifting Business Into Social Machines, *September 2013 – March 2015*
+**Software Engineer**, SODET - Shifting Business Into Social Machines, *September 2013 â€“ March 2015*
 
 facebook, facebook-graph-api, elasticsearch, java, playframework, jquery, performance, android, rest
 
@@ -60,7 +57,7 @@ I had the opportunity to work and learn in projects with short schedules as well
 
 ---
 
-**Member - entrepreneur **, CITi - Junior enterprise, *June 2010 – July 2012*
+**Member - entrepreneur **, CITi - Junior enterprise, *June 2010 â€“ July 2012*
 
 networking, marketing, development-environment
 
@@ -74,7 +71,23 @@ At this time, I had to lead with all different numbers of human resource issues,
 
 ##Education
 
-**Undergraduated in CS**, Federal University of Pernambuco, *2009 – 2014*
+**Master Degree**, Federal University of Pernambuco, *2015 â€“ 2016*
+
+artificial-intelligence, machine-learning
+
+I&#39;m currently **studying and researching** `time series` problems and solutions based on `neural networks` with `hybrids` systems.
+
+---
+
+**Undergraduated in CS**, Memorial University of Newfoundland, *2012 â€“ 2013*
+
+objective-c, conv-neural-network
+
+I received a scholarship to study 1 year at Memorial University.  I was a exchange student and spent 3 semesters in this University. In this occasion I was able to practice my English skills and making myself fluent, I also had the opportunity to study Privacy and Security in Cloud Computing with Professor Ph.D Vidyasankar, Krishnamurthy.
+
+---
+
+**Undergraduated in CS**, Federal University of Pernambuco, *2009 â€“ 2014*
 
 java, c, c++, matlab, html5
 
@@ -85,17 +98,9 @@ My *GPA* was around `3.0`.
 
 ---
 
-**Master Degree**, Federal University of Pernambuco, *2015 – 2016*
-
-artificial-intelligence, machine-learning
-
-I&#39;m currently **studying and researching** `time series` problems and solutions based on `neural networks` with `hybrids` systems.
-
----
-
 ##Certifications
 
-**Udacity - Android development course (c-ud853)**, *2015 – 2015*
+**Udacity - Android development course (c-ud853)**, *2015 â€“ 2015*
 
 
 
@@ -104,7 +109,54 @@ I&#39;m currently **studying and researching** `time series` problems and soluti
 
 ##Projects &amp; Interests
 
-**GitHub - angular-image-fallback**, [https://github.com/alvarojoao/angular-image-fallback](https://github.com/alvarojoao/angular-image-fallback), *October 2015*
+**Stack Overflow**, [http://stackoverflow.com/users/4803173](http://stackoverflow.com/users/4803173), *April 2015 - Current*
+
+
+Written 124 answers.  Active in javascript and angularjs.
+
+---
+
+**GitHub - programmingChallenges**, [https://github.com/alvarojoao/programmingChallenges](https://github.com/alvarojoao/programmingChallenges), *January 2016 - February 2016*
+
+javascript
+
+Training programming problems from UVA (Univsersity of valladolid), spoj (Sphere online judge)
+  
+This is a git repository where I post few programming challenges where I solve then with javascript.
+
+---
+
+**GitHub - carot-timeseries**, [https://github.com/alvarojoao/carot-timeseries](https://github.com/alvarojoao/carot-timeseries), *November 2015*
+
+r
+
+Tree regression (CART) with time series examples
+  
+I&#39;ve developed this project to consume time series data and make a prediction using **Carot** libs.
+
+---
+
+**GitHub - CRUD-react-node**, [https://github.com/alvarojoao/CRUD-react-node](https://github.com/alvarojoao/CRUD-react-node), *January 2016*
+
+javascript, reactjs, reactjs-flux
+
+Basic crud and resteless  application using flex, react and nodejs server. 
+  
+Developed a simple **Node.js** project with **React JS**, It was useful to learn, you can see the result [here](https://suitsupply-fullstack-alvaro.herokuapp.com/)
+
+---
+
+**GitHub - asynchronous-news-reader**, [https://github.com/alvarojoao/asynchronous-news-reader](https://github.com/alvarojoao/asynchronous-news-reader), *January 2016*
+
+css, ecmascript-6
+
+Full asynchronous web application, JSON consumer.
+  
+Developed  a fully responsive and asynchronous [here](https://supply-front-alvaro.herokuapp.com/)
+
+---
+
+**GitHub - angular-image-fallback**, [https://github.com/alvarojoao/angular-image-fallback](https://github.com/alvarojoao/angular-image-fallback), *October 2015 - December 2015*
 
 angularjs, javascript, angularjs-directive
 
@@ -114,41 +166,29 @@ I developed the entire project.
 
 ---
 
-**GitHub - angular-img-svg**, [https://github.com/alvarojoao/angular-img-svg](https://github.com/alvarojoao/angular-img-svg), *October 2015*
+**GitHub - Social Users Collector **, [https://github.com/alvarojoao/socialCollector](https://github.com/alvarojoao/socialCollector), *May 2015 - February 2016*
 
-javascript
 
-This project creates a easier way to import img to svg format, so you can apply css style and js tranformations
+A facebook social  and instagram collector people and filter people my iteration and keywords
   
-I developed the entire project. 
+I developed the entire project.
 
 ---
 
-**GitHub - angular-simple-sprite**, [https://github.com/alvarojoao/angular-simple-sprite](https://github.com/alvarojoao/angular-simple-sprite), *October 2015*
-
-html, angularjs, sprite, css-sprites, javascript
-
-An Angular directive for creating simple sprites.
-  
-I made a fork and start to clean and enhancement few features.
-
----
-
-**GitHub - facebook-collector**, [https://github.com/alvarojoao/facebook-collector](https://github.com/alvarojoao/facebook-collector), *August 2015 - October 2015*
-
-javascript, java, playframework, spring-integration
-
-Collector of pages
-  
-I developed the entire project. 
-
----
-
-**GitHub - personalwebsite**, [https://github.com/alvarojoao/personalwebsite](https://github.com/alvarojoao/personalwebsite), *September 2015*
+**GitHub - personalwebsite**, [https://github.com/alvarojoao/personalwebsite](https://github.com/alvarojoao/personalwebsite), *September 2015 - February 2016*
 
 css, scala, playframework, internationalization
 
 My website
+  
+I developed the entire project. [here](http://www.silvino.me)
+
+---
+
+**GitHub - angular-img-svg**, [https://github.com/alvarojoao/angular-img-svg](https://github.com/alvarojoao/angular-img-svg), *October 2015*
+
+
+This project creates a easier way to import img to svg format, so you can apply css style and js tranformations
   
 I developed the entire project. 
 
@@ -193,13 +233,20 @@ ps: this article was written in Portuguese, my native tongue.
 
 ---
 
-**DESSERT: Apresentações, Dicas e  Cinema nacional grátis!**, [http://www.blogdadessert.com.br/2012/08/apresentacoes-dicas-e-cinema-nacional.html](http://www.blogdadessert.com.br/2012/08/apresentacoes-dicas-e-cinema-nacional.html)
+**DESSERT: ApresentaÃ§Ãµes, Dicas e  Cinema nacional grÃ¡tis!**, [http://www.blogdadessert.com.br/2012/08/apresentacoes-dicas-e-cinema-nacional.html](http://www.blogdadessert.com.br/2012/08/apresentacoes-dicas-e-cinema-nacional.html)
 
 
 I wrote for this blog a while ago. 
 In this article in particular I spoke about national movies and free ways to enjoy them. 
 
 ps: this article was written in Portuguese, my native tongue.
+
+---
+
+**Dropbox - Uma anÃ¡lise sobre a incidÃªncia de Ã³bitos fetais no Brasil.pdf**, [https://www.dropbox.com/s/nl78kn9jwkmzjza/Uma anÃ¡lise sobre a incidÃªncia de Ã³bitos fetais no Brasil.pdf?dl=0](https://www.dropbox.com/s/nl78kn9jwkmzjza/Uma anÃ¡lise sobre a incidÃªncia de Ã³bitos fetais no Brasil.pdf?dl=0)
+
+
+Pequeno projeto onde &#233; analisado a situa&#231;&#227;o dos fetos em brasileiras gr&#225;vidas acima de 22 semanas com risco de morte. Nessa an&#225;lise &#233; desenvolvida com dados do DATASUS e da pesquisa do IBGE 2012.
 
 ---
 
